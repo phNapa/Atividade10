@@ -58,6 +58,7 @@ const Solicitantes = () => {
               placeholder="Informe um cnpj"
               onChange={(e) => onInputChange(e)}
             />
+            <button className="block mx-auto w-80 mt-5 bg-indigo-600 text-white font-semibold font-inter text-sm px-3 py-2 rounded-md hover:bg-indigo-500">Procurar</button>
           </form>
 
           <div>
