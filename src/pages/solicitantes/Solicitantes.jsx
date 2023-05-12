@@ -11,7 +11,7 @@ const Solicitantes = () => {
   const getSolicitantesPresentes = async () => {
     const response = await axios.get("https://uno.up.railway.app/solicitantes");
     const data = response.data;
-    const cnpjs = data?.map((solicitante) => solicitante.cnpj);
+    const cnpjs = data?.map((amostra) => amostra.idAmostra);
     setCnpj(cnpjs);
     setLoading(false);
   };
